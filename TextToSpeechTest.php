@@ -1,6 +1,6 @@
 
 
-<script src='responsivevoice.js'></script>
+<script src='js/responsivevoice.js'></script>
 <script type="text/javascript">
 
 var lines = ["Speech Started.", "We don't talk anymore...", "We don't talk anymore?", "Like we used to do!!", "Why does a recognizable novice gasp?", "The releasing military conforms above the industry.", "A hysterical mud punts.", "Will the connecting script involve the cosmic procedure?", "Why won't the handbook chop the guy?", "Before the revised scarf hunts the immortal employee.", "The End"];
