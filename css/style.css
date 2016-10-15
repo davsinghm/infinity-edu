@@ -1,11 +1,6 @@
 body {
-	background-color: #222222;
-	color: #222;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: 300;
-	font-size: 15px;
+	background-color: black;
 	margin:0;
-	font:normal 75% Arial, Helvetica, sans-serif;
 }
 
 #particles-js{ position: absolute; width: 100%; height: calc(100% - 56px); background: linear-gradient(0deg, rgb(10, 10, 10), rgb(50, 50, 50)); z-index: -20; }
@@ -21,21 +16,18 @@ body {
 #stats{ border-radius: 3px 3px 0 0; overflow: hidden; }
 .count-particles{ border-radius: 0 0 3px 3px; }
 
-@keyframes timerAnimation {
-    from {width: 100%; background-color: green;}
-    to {width: 0%; background-color: red;}
-}
-
 nav {
 	height: 56px;
 	width: 100%;
-	background-color: #444444;
+	background-color: black;
 	border-radius: 4px;
 	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-	color: #888;
+	color: black;
 	display: block;
 	margin: 0;
 	overflow: hidden;
+	text-shadow: 0 0 5px #ce08d7,0 0 10px #ce08d7,0 0 20px #ce08d7,0 0 30px #ce08d7,0 0 40px #700475,0 0 55px #700475;
+	box-shadow: 0 0 15px 2px #2175c0,#2175c0 0 0 11px 3px inset;
 }
 
 nav ul {
@@ -57,11 +49,13 @@ nav ul li {
 }
 
 nav ul ul {
-	background-color: #444444;
+	background-color: black;
+	text-shadow: 0 0 5px #2175c0,0 0 10px #2175c0,0 0 20px #2175c0,0 0 30px #2175c0,0 0 40px #124069,0 0 55px #124069;
 }
 
 nav ul ul ul {
 	border-left: 0px solid black;
+	text-shadow: 0 0 5px #1fc139,0 0 10px #1fc139,0 0 20px #1fc139,0 0 30px #1fc139,0 0 40px #11691f,0 0 55px #11691f;
 }
 
 nav > ul > li > a > .caret,
